@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lotteryApp</title>
+</head>
+<body>
+  <!-- Title -->
+  <h1>Souvenir Lottery</h1>
+  <div class="picture"> 
+    <img src="Chocolate-Nation-treasure-hall.jpg" alt="Chocolate">
+  </div>
+  <div  class="intro">
+  <h6>from chocolatenation website : https://www.chocolatenation.be/en</h6>
+  <h3>How to use</h3>
+  <ol>
+    <li>This is the chocolate shop list in Antwerp </li>
+    <li>You can get "a chocolate souvenir" by drawing lots. <strong>Press below button</strong></li>
+  </ol>
+  </div>
+  <br>
+  <!-- Chart -->
+  <div class="rank-result">
+      <table rules="all" >
+        <thead>
+          <tr>
+            <th colspan="2">Chocolate Shop List</th>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td><a href="https://maps.app.goo.gl/Vg7NzAyzMm2MQ8MB8" target="_blank">Château Blanc</a></td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td><a href="https://maps.app.goo.gl/SDGY5PiGyNrBGD7AA" target="_blank">ELISA chocolates</a></td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td><a href="https://maps.app.goo.gl/yiKq9LqoJHjX71Ct6" target="_blank">The Chocolate Line</a></td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td><a href="https://maps.app.goo.gl/TxwmzUdShThPoQc78" target="_blank">Chocolatier&Confiserie Burie</a></td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td><a href="https://maps.app.goo.gl/rRfKewcFe7o6KWPh9" target="_blank">Neuhaus Chocolates</a></td>
+            </tr> 
+            <tr>
+              <td>6.</td>
+              <td><a href="https://maps.app.goo.gl/hq3qQvLiVAv8gBn37" target="_blank">Günther Watté</a></td>
+            <tr>
+              <td>7.</td>
+              <td><a href="https://maps.app.goo.gl/54EUC48z4mxdxY8W7" target="_blank">Chocolatier Del Rey</a></td>
+            </tr>               
+            </tr>                                                                             
+          </tbody>
+          </tr>
+        </thead>
+      </table>
+      <div id="result-space">
+      <p>★Your chocolate souvenir is from★ ↓↓</p>
+      <p id="result"></p>
+      </div>
+  </div>
+
+    <!-- Button -->
+    <div class="btn-area">
+      <button>Let's<br>draw lots!</button>
+    </div>
+    <script src="lottery.js"></script>
+</body>
+</html>
